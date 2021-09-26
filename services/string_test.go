@@ -19,6 +19,7 @@ func TestChain(t *testing.T) {
 		{"TX06ABCDE", false, "", "", 0},
 		{"NN04000A", false, "", "", 0},
 		{"CC23FRANASPERMASTER", false, "", "", 0},
+		{"TX3F", false, "", "", 0},
 	}
 	for _, testData := range cases {
 		var c Chain
